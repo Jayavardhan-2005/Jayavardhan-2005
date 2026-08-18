@@ -62,7 +62,7 @@ Full-stack complaint management system with role-based access for students and a
 
 📧 **Email:** [jayavardhana29@gmail.com](mailto:jayavardhana29@gmail.com)
 
-🔗 **LinkedIn:** [[Jayavardhana A](YOUR_LINKEDIN_URL)](https://www.linkedin.com/in/jayavardhan-a-10b29732a/)
+🔗**LinkedIn:** [Jayavardhana A](https://www.linkedin.com/in/jayavardhan-a-10b29732a/)
 
 ---
 
