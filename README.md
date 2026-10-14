@@ -10,13 +10,18 @@ Currently strengthening my skills in Data Structures & Algorithms, backend devel
 
 ## 🚀 Featured Projects
 
-### 🩺 MedIntel AI
+### 🩺 [MedIntel AI](https://github.com/Jayavardhan-2005/medintel-ai)
 
-**In Development**
+**Released (v1.3.1)** · ![tests](https://github.com/Jayavardhan-2005/medintel-ai/actions/workflows/tests.yml/badge.svg)
 
-AI-powered medical report analysis platform focused on extracting and explaining information from medical reports.
+Reads lab reports (PDFs, scans and phone photos), extracts every result, and checks it against the reference range printed on the report, with guarded AI explanations in plain language. Educational tool, not a diagnostic one.
 
-**Tech:** Python • Flask • MongoDB • NLP • OCR • HTML • CSS • JavaScript
+- Safety-first design: **zero false-reassurance errors** across every evaluation; uncertain results are marked *Unverified* instead of guessed
+- **0.84 recall / 0.99 precision** on a hand-annotated development set, with a lab-level dev/test split and leakage guard
+- LOINC-mapped catalog of 53 tests, OCR resolution gate, plausibility bounds, and input/output guardrails on LLM explanations
+- 225 automated checks running in GitHub Actions CI
+
+**Tech:** Python • Flask • PyMuPDF • pdfplumber • Tesseract OCR • Gemini API • LOINC • GitHub Actions • HTML • CSS • JavaScript
 
 ### 🎯 LevelUp DSA
 
@@ -38,13 +43,15 @@ Full-stack complaint management system with role-based access for students and a
 
 **Languages:** Python • JavaScript • C • SQL
 
-**AI/ML:** Machine Learning • Natural Language Processing • FAISS • spaCy • Sentence Transformers
+**AI/ML:** Machine Learning • Natural Language Processing • OCR (Tesseract) • LLM APIs (Gemini) • FAISS • spaCy • Sentence Transformers
 
-**Backend:** Flask • REST APIs
+**Backend:** Flask • REST APIs • Document processing (PyMuPDF, pdfplumber)
 
 **Databases:** MongoDB • MySQL
 
 **Frontend:** HTML • CSS • Tailwind CSS
+
+**Testing & DevOps:** Automated testing • Evaluation harnesses • GitHub Actions CI
 
 **Tools:** Git • GitHub • Visual Studio Code • Jupyter Notebook
 
@@ -62,10 +69,10 @@ Full-stack complaint management system with role-based access for students and a
 
 📧 **Email:** [jayavardhana29@gmail.com](mailto:jayavardhana29@gmail.com)
 
-🔗**LinkedIn:** [Jayavardhana A](https://www.linkedin.com/in/jayavardhan-a-10b29732a/)
+🔗 **LinkedIn:** [Jayavardhana A](https://www.linkedin.com/in/jayavardhan-a-10b29732a/)
 
 ---
 
 ### Currently Building 🚀
 
-**MedIntel AI** • **LevelUp DSA**
+**LevelUp DSA**
