@@ -35,6 +35,18 @@ A personalized career intelligence platform for engineering students: AI-driven 
 
 **Tech:** Python • Flask • PostgreSQL • SQLAlchemy • FAISS • sentence-transformers • spaCy • Gemini API • D3.js • Piston (Docker) • HTML • CSS • JavaScript
 
+### 🧤 [Air-Gesture Assistive Glove](https://github.com/Jayavardhan-2005/air-gesture-glove)
+
+**In development (on hold until next semester)** · Embedded AI coursework project, solo
+
+A wearable built on the Arduino Nano 33 BLE. In one mode, you draw shapes in the air and a TinyML classifier on the board turns them into words, shown on an OLED and spoken through a speaker. In a second caretaker mode, three flex sensors let a paralysed patient call for help (hungry, washroom, emergency) with finger patterns, and the alert sounds until acknowledged.
+
+- Sensor → edge AI → decision → actuators → feedback design: IMU, flex sensors, OLED, speaker, buzzer, vibration motor
+- Hardware bring-up done: IMU readings, OLED, motor driver, flex sensor characterisation; flex and pattern logic simulated in Wokwi
+- Still to do: gesture dataset, Edge Impulse model, on-device inference, voice playback, BLE phone app
+
+**Tech:** Arduino (C++) • Nano 33 BLE (nRF52840) • BMI270 IMU • TinyML / Edge Impulse • BLE • SSD1306 OLED • DFPlayer Mini • Wokwi
+
 ### 📋 College Complaint Portal
 
 Full-stack complaint management system with role-based access for students and administrators.
@@ -50,9 +62,9 @@ Full-stack complaint management system with role-based access for students and a
 
 ## 🛠️ Technologies
 
-**Languages:** Python • JavaScript • C • SQL
+**Languages:** Python • JavaScript • C • C++ (Arduino) • SQL
 
-**AI/ML:** Machine Learning • NLP • OCR (Tesseract) • LLM APIs (Gemini) • RAG • FAISS • spaCy • Sentence Transformers
+**AI/ML:** Machine Learning • TinyML / Edge AI • NLP • OCR (Tesseract) • LLM APIs (Gemini) • RAG • FAISS • spaCy • Sentence Transformers
 
 **Backend:** Flask • REST APIs • Document processing (PyMuPDF, pdfplumber)
 
