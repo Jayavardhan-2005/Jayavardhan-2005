@@ -2,9 +2,7 @@
 
 ### AI/ML Engineering Student | Python Developer
 
-I'm an Artificial Intelligence & Machine Learning undergraduate interested in software development, AI/ML, and building practical applications that solve real-world problems.
-
-Currently strengthening my skills in Data Structures & Algorithms, backend development, databases, Machine Learning, and Natural Language Processing while building AI-powered applications.
+I'm an Artificial Intelligence & Machine Learning undergraduate who likes building practical, well-tested applications that solve real problems, with a focus on backend development, AI/ML, and NLP.
 
 ---
 
@@ -12,12 +10,12 @@ Currently strengthening my skills in Data Structures & Algorithms, backend devel
 
 ### 🩺 [MedIntel AI](https://github.com/Jayavardhan-2005/medintel-ai)
 
-**Released (v1.3.1)** · ![tests](https://github.com/Jayavardhan-2005/medintel-ai/actions/workflows/tests.yml/badge.svg)
+**Completed (v1.3.1)** · ![tests](https://github.com/Jayavardhan-2005/medintel-ai/actions/workflows/tests.yml/badge.svg)
 
-Reads lab reports (PDFs, scans and phone photos), extracts every result, and checks it against the reference range printed on the report, with guarded AI explanations in plain language. Educational tool, not a diagnostic one.
+Reads lab reports (PDFs, scans and phone photos), extracts every result, and checks it against the reference range printed on the report, with guarded AI explanations in plain language. An educational tool, not a diagnostic one.
 
 - Safety-first design: **zero false-reassurance errors** across every evaluation; uncertain results are marked *Unverified* instead of guessed
-- **0.84 recall / 0.99 precision** on a hand-annotated development set, with a lab-level dev/test split and leakage guard
+- **0.84 recall / 0.99 precision** on a hand-annotated development set, evaluated with a lab-level dev/test split and leakage guard
 - LOINC-mapped catalog of 53 tests, OCR resolution gate, plausibility bounds, and input/output guardrails on LLM explanations
 - 225 automated checks running in GitHub Actions CI
 
@@ -25,11 +23,17 @@ Reads lab reports (PDFs, scans and phone photos), extracts every result, and che
 
 ### 🎯 LevelUp DSA
 
-**In Development**
+**Completed · Team project (B.Tech major project, Dept. of AIML, BITM)** <!-- once the code is pushed, replace this comment with: · [Repository](https://github.com/Joelmaxten/LevelUp-DSA) -->
 
-AI-powered career intelligence platform combining personalized DSA learning and career guidance for Computer Science students.
+A personalized career intelligence platform for engineering students: AI-driven career guidance, resume analysis, and a gamified, adaptive DSA learning system, all combined into a single **Placement Readiness Score**.
 
-**Tech:** Python • Flask • MongoDB • FAISS • spaCy • Sentence Transformers • Judge0 API • HTML • CSS • JavaScript
+- **Career guidance:** profiling quiz + RAG-based career-path scoring and personalized roadmaps (FAISS, sentence-transformers, Gemini)
+- **Resume analyzer:** PDF parsing and NER skill extraction (spaCy), skill-gap analysis and live job matching
+- **Gamified DSA:** interactive Skill DNA Map (D3.js), sandboxed code execution, XP/mastery/streaks, and adaptive problem selection based on weakness scores
+
+**My role:** Phase 3, Gamified DSA (Skill DNA Map)
+
+**Tech:** Python • Flask • PostgreSQL • SQLAlchemy • FAISS • sentence-transformers • spaCy • Gemini API • D3.js • Piston (Docker) • HTML • CSS • JavaScript
 
 ### 📋 College Complaint Portal
 
@@ -37,31 +41,41 @@ Full-stack complaint management system with role-based access for students and a
 
 **Tech:** Python • Flask • MongoDB • HTML • CSS • JavaScript
 
+### 🐍 Python Practice
+
+- [BITM Python Internship Program](https://github.com/Jayavardhan-2005/BITM-Python-Internship-Program): programs completed during the EZ Technologies Python Internship at BITM
+- [Python Problem Solving](https://github.com/Jayavardhan-2005/python-problem-solving): problem-solving practice in Python
+
 ---
 
 ## 🛠️ Technologies
 
 **Languages:** Python • JavaScript • C • SQL
 
-**AI/ML:** Machine Learning • Natural Language Processing • OCR (Tesseract) • LLM APIs (Gemini) • FAISS • spaCy • Sentence Transformers
+**AI/ML:** Machine Learning • NLP • OCR (Tesseract) • LLM APIs (Gemini) • RAG • FAISS • spaCy • Sentence Transformers
 
 **Backend:** Flask • REST APIs • Document processing (PyMuPDF, pdfplumber)
 
-**Databases:** MongoDB • MySQL
+**Databases:** PostgreSQL • MongoDB • MySQL
 
-**Frontend:** HTML • CSS • Tailwind CSS
+**Frontend:** HTML • CSS • Tailwind CSS • D3.js
 
 **Testing & DevOps:** Automated testing • Evaluation harnesses • GitHub Actions CI
 
-**Tools:** Git • GitHub • Visual Studio Code • Jupyter Notebook
+**Tools:** Git • GitHub • VS Code • Jupyter Notebook
 
 ---
 
 ## 📜 Certifications
 
-* ServiceNow Certified System Administrator (CSA)
-* ServiceNow Certified Application Developer (CAD)
-* AWS Cloud Quest: Cloud Practitioner
+- ServiceNow Certified System Administrator (CSA)
+- ServiceNow Certified Application Developer (CAD)
+
+---
+
+## 🎬 Beyond Code
+
+Captain of the Media Club (Kriya Forum, AIML Department): leading a 5–10 member team for event coverage, design and the club's social media.
 
 ---
 
@@ -71,8 +85,10 @@ Full-stack complaint management system with role-based access for students and a
 
 🔗 **LinkedIn:** [Jayavardhana A](https://www.linkedin.com/in/jayavardhan-a-10b29732a/)
 
+💻 **LeetCode:** [jayavardhana2005](https://leetcode.com/u/jayavardhana2005)
+
 ---
 
-### Currently Building 🚀
+### Currently 📚
 
-**LevelUp DSA**
+Sharpening Data Structures & Algorithms in Python and preparing for placements.
